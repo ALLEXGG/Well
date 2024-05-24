@@ -1,0 +1,239 @@
+/* Styles.css */
+
+/* Resetting some default styles */
+body, h1, h2, h3, h4, p, ul, li, a, img, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  header .logo img {
+    height: 50px;
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero .btn {
+    background: #ff9800;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* About section styles */
+  .about {
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .about .about-content {
+    max-width: 50%;
+  }
+  
+  .about .about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Menu section styles */
+  .menu {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .menu .menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .menu .menu-item {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .menu .menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Reservation section styles */
+  .reservations {
+    padding: 50px 20px;
+    background: #f4f4f4;
+  }
+  
+  .reservations .reservation-form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .reservations input, .reservations textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .reservations button {
+    background: #ff9800;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Testimonials section styles */
+  .testimonials {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonials .testimonial {
+    margin-bottom: 20px;
+  }
+  
+  .testimonials img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Gallery section styles */
+  .gallery {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .gallery .image-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .gallery .image-item {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .gallery .image-item img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    padding: 50px 20px;
+    background: #f4f4f4;
+  }
+  
+  .contact .contact-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .contact .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .contact .info-item {
+    text-align: center;
+  }
+  
+  .contact .info-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .contact .contact-form input, .contact .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact button {
+    background: #ff9800;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer .footer-logo img {
+    height: 50px;
+  }
+  
+  .footer .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .footer .footer-social a {
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  .footer .footer-text {
+    margin-top: 20px;
+  }
+  
